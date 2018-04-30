@@ -250,7 +250,7 @@
             "PITCH_MAX":"-2"
         }
     },
-    "narrowbass": {
+    "narrow": {
         "note":{
             "PITCH_MAX":"PITCH_MIN + 10"
         }

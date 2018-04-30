@@ -1,15 +1,14 @@
 {
-  "CC_GEN_NB_MAX": 20,
+  "CC_GEN_NB_MAX": 10,
   "USE_CC_GEN": true,
-  "CC_GEN_DELAY_MIN": 200,
+  "CC_GEN_DELAY_MIN": 6000,
   "CC_GEN_NB_MIN": 0,
-  "CC_GEN_DELAY_MAX": 10000,
+  "CC_GEN_DELAY_MAX": 30000,
   "CC_SET_LIST": [
     [1,1,0,127],
     [2,1,0,127],
-    [0,48,0,127],
     {
-      "channel": 1,
+      "channel": 0,
       "number": 48,
       "value_min": 0,
       "value_max": 127
