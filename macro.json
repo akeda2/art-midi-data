@@ -76,7 +76,7 @@
     "ppp": {
         "note" : {
             "VELOCITY_MIN": 6,
-            "VELOCITY_MAX": 32
+            "VELOCITY_MAX": 18
         }
     },
     "pp": {
@@ -115,6 +115,18 @@
             "VELOCITY_MAX": 87
         }
     },
+    "cresc":{
+        "note" : {
+            "VELOCITY_MIN":"+10",
+            "VELOCITY_MAX":"+10"
+        }
+    },
+    "dim":{
+        "note" : {
+            "VELOCITY_MIN":"-10",
+            "VELOCITY_MAX":"-10"
+        }
+    },
 	"sparse": {
 		"note" : {
 			"GEN_NOTE_DELAY_MAX": 5000,
@@ -136,6 +148,41 @@
 			"MAIN_LOOP_DELAY_MAX": 500,
 			"MAIN_LOOP_DELAY_MIN": 50
 		}
+    },
+    "denser": {
+		"note" : {
+			"GEN_NOTE_DELAY_MAX": "-100",
+			"NOTE_DELAY_MAX": "-100",
+			"NOTE_DELAY_MIN": "-50"
+		},
+		"main" : {
+			"MAIN_LOOP_DELAY_MAX": "-200",
+			"MAIN_LOOP_DELAY_MIN": "-20"
+		}
+    },
+    "sparsen": {
+		"note" : {
+			"GEN_NOTE_DELAY_MAX": "+100",
+			"NOTE_DELAY_MAX": "+100",
+			"NOTE_DELAY_MIN": "+50"
+		},
+		"main" : {
+			"MAIN_LOOP_DELAY_MAX": "+200",
+			"MAIN_LOOP_DELAY_MIN": "+20"
+		}
+    },
+    "superdense": {
+		"note" : {
+			"GEN_NOTE_DELAY_MAX": 200,
+			"NOTE_DELAY_MAX": 100,
+            "NOTE_DELAY_MIN": 10,
+            "GEN_NB_NOTES_MAX": 100,
+            "GEN_NB_NOTES_MIN": 50
+		},
+		"main" : {
+			"MAIN_LOOP_DELAY_MAX": 100,
+			"MAIN_LOOP_DELAY_MIN": 10
+        }
     },
     "stacc": {
         "note" :{
@@ -177,6 +224,35 @@
     "update" : {
         "main":{
             "USE_CONFIG_REFRESH": true
+        }
+    },
+    "upone": {
+        "note" :{
+            "PITCH_MIN":"+1",
+            "PITCH_MAX":"+1"
+        }
+    },
+    "downone": {
+        "note":{
+            "PITCH_MIN":"-1",
+            "PITCH_MAX":"-1"
+        }
+    },
+    "uptwo": {
+        "note" :{
+            "PITCH_MIN":"+2",
+            "PITCH_MAX":"+2"
+        }
+    },
+    "downtwo": {
+        "note":{
+            "PITCH_MIN":"-2",
+            "PITCH_MAX":"-2"
+        }
+    },
+    "narrowbass": {
+        "note":{
+            "PITCH_MAX":"PITCH_MIN + 10"
         }
     }
 }

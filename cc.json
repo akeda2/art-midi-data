@@ -5,7 +5,7 @@
   "CC_GEN_CHANNEL_MIN": 0,
   "CC_GEN_CHANNEL_MAX": 1,
   "CC_GEN_NB_MAX": 20,
-  "USE_CC_GEN": true,
+  "USE_CC_GEN": false,
   "CC_GEN_DELAY_MIN": 0,
   "CC_GEN_NB_MIN": 1,
   "CC_GEN_VALUE_MAX": 127,
