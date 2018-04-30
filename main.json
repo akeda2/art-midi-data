@@ -2,7 +2,7 @@
   "PLAY_PIECE": false,
   "COMPOSITION_REFRESH_DELAY": 1000,
   "CURRENT_PIECE": "piece.json",
-  "MIDI_OUTPUT_DEVICE": "Microsoft GS Wavetable Synth",
+  "MIDI_OUTPUT_DEVICE": "Port 1",
   "USE_CONFIG_REFRESH": false,
   "PLAY_COMPOSITION": true,
   "MAIN_LOOP_DELAY_MAX": 2000,

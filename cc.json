@@ -1,25 +1,18 @@
 {
-  "CC_GEN_VALUE_MIN": 0,
-  "CC_GEN_NUMBER_MAX": 48,
-  "CC_GEN_NUMBER_MIN": 48,
-  "CC_GEN_CHANNEL_MIN": 0,
-  "CC_GEN_CHANNEL_MAX": 1,
   "CC_GEN_NB_MAX": 20,
-  "USE_CC_GEN": false,
-  "CC_GEN_DELAY_MIN": 0,
-  "CC_GEN_NB_MIN": 1,
-  "CC_GEN_VALUE_MAX": 127,
+  "USE_CC_GEN": true,
+  "CC_GEN_DELAY_MIN": 200,
+  "CC_GEN_NB_MIN": 0,
   "CC_GEN_DELAY_MAX": 10000,
   "CC_SET_LIST": [
-    [0,1,34,67],
-    [1,2,32,43],
-    [2,3,100,120],
-    [3,4,12,120],
+    [1,1,0,127],
+    [2,1,0,127],
+    [0,48,0,127],
     {
-      "channel": 4,
-      "number": 5,
-      "value_min": 65,
-      "value_max": 89
+      "channel": 1,
+      "number": 48,
+      "value_min": 0,
+      "value_max": 127
     }
   ]
 }
