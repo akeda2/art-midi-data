@@ -4,9 +4,9 @@ Intro
 
 ``` composition
 macro macro.json
-1 noupdate sparse stacc sub narrow lp ppp overflow ccon
-3 uptwo denser cresc
-jmp 3 5
-4 uptwo fff
-5 update
+1 noupdate p overflow ccon
+jmp 1 1
+5 denser
+jmp 1 2
+15 update
 ```

@@ -1,6 +1,6 @@
 {
   "CC_GEN_NB_MAX": 10,
-  "USE_CC_GEN": true,
+  "USE_CC_GEN": false,
   "CC_GEN_DELAY_MIN": 6000,
   "CC_GEN_NB_MIN": 0,
   "CC_GEN_DELAY_MAX": 30000,
