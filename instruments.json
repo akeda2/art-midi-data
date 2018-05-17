@@ -1,0 +1,66 @@
+{
+    "NAME":"Instrument_config",
+    "CONFIG":[
+        {
+            "NOTE": false
+        },
+        {
+            "CHANNEL": 11,
+            "NAME": "Volca_FM",
+            "NOTE":true,
+            "COMPOSITION": "composition.md"
+        },
+        {
+            "PARENT_NAME": "Volca_FM",
+            "NAME": "Boog_D",
+            "CHANNEL": 12,
+            "NOTE": true
+        },
+        {
+            "CHANNEL": 13,
+            "NAME": "DM12",
+            "PARENT_CHANNEL": "11",
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 1,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 2,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 3,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 4,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 5,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 6,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 7,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 8,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 9,
+            "NOTE":true
+        },
+        {
+            "CHANNEL": 10,
+            "NOTE":true
+        }
+    ]
+}

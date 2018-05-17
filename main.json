@@ -1,15 +1,25 @@
 {
   "PLAY_PIECE": false,
   "COMPOSITION_REFRESH_DELAY": 1000,
-  "CURRENT_PIECE": "piece.json",
-  "USE_CONFIG_REFRESH": false,
+  "PIECE": "piece.json",
+  "USE_CONFIG_REFRESH": true,
   "PLAY_COMPOSITION": true,
   "MAIN_LOOP_DELAY_MAX": 2000,
   "USE_COMPOSITION_IN_MARKDOWN": true,
-  "CONFIG_REFRESH_DELAY": 1000,
+  "CONFIG_REFRESH_DELAY": 10000,
+  "NAME": "",
+  "CONFIG": [
+    "main.json",
+    "note.json",
+    "cc.json",
+    "instruments.json"
+  ],
+  "MIDI_OUTPUT_DEVICE": ["Port 1", "Microsoft GS Wavetable Synth"],
+  "PARENT": "",
   "PIECE_REFRESH_DELAY": 1000,
-  "CURRENT_COMPOSITION": "composition.md",
+  "REMOVE": false,
+  "ON_FALSE_CONFIG_REFRESH_DELAY": 10000,
   "USE_MAIN_LOOP_DELAY": true,
-  "MAIN_LOOP_DELAY_MIN": 100,
-  "MAIN_CONFIG": "platform.json"
+  "COMPOSITION_CLEAR_JMP_STACK_ON_EOF": false,
+  "MAIN_LOOP_DELAY_MIN": 100
 }

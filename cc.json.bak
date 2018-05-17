@@ -4,14 +4,14 @@
   "CC_GEN_NUMBER_MAX": 120,
   "CC_GEN_CHANNEL_MAX": 16,
   "CC_SET_LIST": [
-    [1,1,0,127],
+	[1,1,0,127],
     [2,1,0,127],
     {
       "channel": 0,
       "number": 48,
       "value_min": 0,
       "value_max": 127
-    }
+	}
   ],
   "CC_GEN_NB_MAX": 3,
   "CC_CHANNELS_BANKS": [],
