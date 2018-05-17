@@ -11,11 +11,11 @@
         },
         {
             "PARENT_CHANNEL": 11,
-            "GEN_NB_NOTES_MAX": 20,
-            "NOTE_DELAY_MAX": 2000,
-            "NOTE_TIME_MAX": 2000,
+            "GEN_NB_NOTES_MIN": 1,
+            "GEN_NB_NOTES_MAX": 5,
             "NAME": "Boog_D",
             "CHANNEL": 12,
+            "MONO": true,
             "NOTE": true
         },
         {
@@ -25,18 +25,20 @@
         },
         {
             "CHANNEL": 1,
-            "NAME": "Volca_Sample",
-            "NOTE":true
+            "NAME": "Kick",
+            "NOTE":false
         },
         {
             "CHANNEL": 2,
             "PARENT_CHANNEL": 1,
-            "NOTE":true
+            "NAME":"Claves",
+            "NOTE":false
         },
         {
             "CHANNEL": 3,
             "PARENT_CHANNEL": 1,
-            "NOTE":true
+            "NAME":"Snare",
+            "NOTE":false
         },
         {
             "CHANNEL": 4,
@@ -61,7 +63,7 @@
         {
             "CHANNEL": 8,
             "PARENT_CHANNEL": 1,
-            "NOTE":true
+            "NOTE":false
         },
         {
             "CHANNEL": 9,
