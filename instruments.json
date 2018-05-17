@@ -7,11 +7,13 @@
         {
             "CHANNEL": 11,
             "NAME": "Volca_FM",
-            "NOTE":true,
-            "COMPOSITION": "composition.md"
+            "NOTE":true
         },
         {
-            "PARENT_NAME": "Volca_FM",
+            "PARENT_CHANNEL": 11,
+            "GEN_NB_NOTES_MAX": 20,
+            "NOTE_DELAY_MAX": 2000,
+            "NOTE_TIME_MAX": 2000,
             "NAME": "Boog_D",
             "CHANNEL": 12,
             "NOTE": true
@@ -19,47 +21,56 @@
         {
             "CHANNEL": 13,
             "NAME": "DM12",
-            "PARENT_CHANNEL": "11",
             "NOTE":true
         },
         {
             "CHANNEL": 1,
+            "NAME": "Volca_Sample",
             "NOTE":true
         },
         {
             "CHANNEL": 2,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 3,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 4,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 5,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 6,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 7,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 8,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 9,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 10,
+            "PARENT_CHANNEL": 1,
             "NOTE":true
         }
     ]

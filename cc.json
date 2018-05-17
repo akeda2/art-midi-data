@@ -1,13 +1,13 @@
 {
-  "CC": false,
+  "CC": true,
   "CC_GEN_VALUE_MIN": 0,
-  "CC_GEN_NUMBER_MAX": 120,
+  "CC_GEN_NUMBER_MAX": 127,
   "CC_GEN_CHANNEL_MAX": 16,
   "CC_SET_LIST": [
-    [1,1,0,127],
-    [2,1,0,127],
+    [12,1,0,127],
+    [13,1,0,127],
     {
-      "channel": 0,
+      "channel": 11,
       "number": 48,
       "value_min": 0,
       "value_max": 127
@@ -19,6 +19,6 @@
   "CC_GEN_NUMBER_MIN": 0,
   "CC_GEN_CHANNEL_MIN": 0,
   "CC_GEN_NB_MIN": 1,
-  "CC_GEN_VALUE_MAX": 128,
+  "CC_GEN_VALUE_MAX": 127,
   "CC_GEN_DELAY_MAX": 10000
 }
