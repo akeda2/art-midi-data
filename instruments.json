@@ -2,7 +2,11 @@
     "NAME":"Instrument_config",
     "CONFIG":[
         {
-            "NOTE": false
+            "NOTE": false,
+            "LOG_CONFIG_VERBOSE": true,
+            "LOG_NOTE_VERBOSE": false,
+            "LOG_CC_VERBOSE": false,
+            "LOG_COMPOSITION_VERBOSE": false
         },
         {
             "CHANNEL": 11,
@@ -13,10 +17,15 @@
             "PARENT_CHANNEL": 11,
             "GEN_NB_NOTES_MIN": 1,
             "GEN_NB_NOTES_MAX": 5,
+            "PITCH_MIN": 16,
+            "PITCH_MAX": 50,
             "NAME": "Boog_D",
             "CHANNEL": 12,
             "MONO": true,
-            "NOTE": true
+            "NOTE": true,
+            "LOG_NOTE_VERBOSE": true,
+            "NOTE_DELAY_MIN": 30,
+            "NOTE_DELAY_MAX": 30
         },
         {
             "CHANNEL": 13,
@@ -26,7 +35,14 @@
         {
             "CHANNEL": 1,
             "NAME": "Kick",
-            "NOTE":false
+            "NOTE":true,
+            "MONO":true,
+            "GEN_NB_NOTES_MIN": 1,
+            "GEN_NB_NOTES_MAX":1,
+            "NOTE_TIME_MAX": 100,
+            "NOTE_TIME_MIN": 100,
+            "NOTE_DELAY_MIN": 30,
+            "NOTE_DELAY_MAX": 30
         },
         {
             "CHANNEL": 2,
@@ -38,41 +54,41 @@
             "CHANNEL": 3,
             "PARENT_CHANNEL": 1,
             "NAME":"Snare",
-            "NOTE":false
+            "NOTE":true
         },
         {
             "CHANNEL": 4,
             "PARENT_CHANNEL": 1,
+            "NAME": "hat",
             "NOTE":true
         },
         {
             "CHANNEL": 5,
-            "PARENT_CHANNEL": 1,
             "NOTE":true
         },
         {
             "CHANNEL": 6,
-            "PARENT_CHANNEL": 1,
+            "PARENT_CHANNEL": 5,
             "NOTE":true
         },
         {
             "CHANNEL": 7,
-            "PARENT_CHANNEL": 1,
+            "PARENT_CHANNEL": 5,
             "NOTE":true
         },
         {
             "CHANNEL": 8,
-            "PARENT_CHANNEL": 1,
+            "PARENT_CHANNEL":5,
             "NOTE":false
         },
         {
             "CHANNEL": 9,
-            "PARENT_CHANNEL": 1,
+            "PARENT_CHANNEL": 5,
             "NOTE":true
         },
         {
             "CHANNEL": 10,
-            "PARENT_CHANNEL": 1,
+            "PARENT_CHANNEL": 5,
             "NOTE":true
         }
     ]
