@@ -3,7 +3,7 @@
     "CONFIG":[
         {
             "NOTE": false,
-            "LOG_CONFIG_VERBOSE": true,
+            "LOG_CONFIG_VERBOSE": false,
             "LOG_NOTE_VERBOSE": false,
             "LOG_CC_VERBOSE": false,
             "LOG_COMPOSITION_VERBOSE": false
@@ -14,16 +14,16 @@
             "NOTE":true
         },
         {
+            "CHANNEL": 12,
+            "NAME": "Boog_D",
             "PARENT_CHANNEL": 11,
             "GEN_NB_NOTES_MIN": 1,
-            "GEN_NB_NOTES_MAX": 5,
+            "GEN_NB_NOTES_MAX": 10,
             "PITCH_MIN": 16,
             "PITCH_MAX": 50,
-            "NAME": "Boog_D",
-            "CHANNEL": 12,
             "MONO": true,
             "NOTE": true,
-            "LOG_NOTE_VERBOSE": true,
+            "LOG_NOTE_VERBOSE": false,
             "NOTE_DELAY_MIN": 30,
             "NOTE_DELAY_MAX": 30
         },

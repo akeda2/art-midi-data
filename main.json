@@ -14,7 +14,7 @@
     "cc.json",
     "instruments.json"
   ],
-  "MIDI_OUTPUT_DEVICE": ["Port 1", "Microsoft GS Wavetable Synth"],
+  "MIDI_OUTPUT_DEVICE": ["Port 1", "Microsoft GS Wavetable Synth", "FluidSynth virtual port (81925)"],
   "PARENT": "",
   "PIECE_REFRESH_DELAY": 1000,
   "REMOVE": false,
