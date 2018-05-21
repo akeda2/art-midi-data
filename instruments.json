@@ -9,6 +9,17 @@
             "LOG_COMPOSITION_VERBOSE": false
         },
         {
+            "NAME":"fast",
+            "GEN_NB_NOTES_MIN":15,
+            "GEN_NB_NOTES_MAX":30
+        },
+        {
+            "NAME":"slow",
+            "GEN_NB_NOTES_MIN": 1,
+            "GEN_NB_NOTES_MAX": 10
+
+        },
+        {
             "CHANNEL": 11,
             "NAME": "Volca_FM",
             "NOTE":true
@@ -16,11 +27,9 @@
         {
             "CHANNEL": 12,
             "NAME": "Boog_D",
-            "PARENT_CHANNEL": 11,
-            "GEN_NB_NOTES_MIN": 1,
-            "GEN_NB_NOTES_MAX": 10,
-            "PITCH_MIN": 16,
-            "PITCH_MAX": 50,
+            "PARENT_NAME": "fast",
+            "PITCH_MIN": 40,
+            "PITCH_MAX": 70,
             "MONO": true,
             "NOTE": true,
             "LOG_NOTE_VERBOSE": false,
@@ -79,7 +88,7 @@
         {
             "CHANNEL": 8,
             "PARENT_CHANNEL":5,
-            "NOTE":false
+            "NOTE":true
         },
         {
             "CHANNEL": 9,
