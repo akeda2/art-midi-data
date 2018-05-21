@@ -1,115 +1,119 @@
 {
-    "hep": {
+    "hep": [
+        [{
         "PITCH_MIN": 1,
         "PITCH_MAX": 32
-    },
-    "dope": {
+    }]
+    ],
+    "dope": [{
         "PITCH_MIN": 34,
         "PITCH_MAX": 122
-    },
-    "sub":{
+    }],
+    "sub":[{
             "PITCH_MIN":0
-    },
-    "bass": {
+    }],
+    "bass": [{
             "PITCH_MIN": 12
-    },
-    "baryton": {
+    }],
+    "baryton": [{
             "PITCH_MIN": 21
-    },
-    "tenor": {
+    }],
+    "tenor": [{
             "PITCH_MIN": 32
-    },
-    "sopranino": {
+    }],
+    "sopranino": [{
             "PITCH_MAX":127
-    },
-    "soprano": {
+    }],
+    "soprano": [{
             "PITCH_MAX": 96
-    },
-    "mezzo":{
+    }],
+    "mezzo":[{
             "PITCH_MAX":93
-    },
-    "alto": {
+    }],
+    "alto": [{
             "PITCH_MAX": 89
-    },
-    "middle": {
+    }],
+    "middle": [{
             "PITCH_MIN":34,
             "PITCH_MAX":50
-    },
-    "normal":{
+    }],
+    "normal":[{
             "PITCH_MAX":82,
             "PITCH_MIN":32
-    },
-    "lp":{
+    }],
+    "lp":[{
             "PITCH_MAX":60
-    },
-    "hp":{
+    }],
+    "hp":[{
             "PITCH_MIN":60
-    },
-    "ppp": {
+    }],
+    "ppp": [{
             "VELOCITY_MIN": 6,
             "VELOCITY_MAX": 18
-    },
-    "pp": {
+    }],
+    "pp": [{
             "VELOCITY_MIN": 12,
             "VELOCITY_MAX": 32
-    },
-    "p": {
+    }],
+    "p": [{
             "VELOCITY_MIN": 26,
             "VELOCITY_MAX": 50
-    },
-    "fff": {
+    }],
+    "fff": [{
             "VELOCITY_MIN": 117,
             "VELOCITY_MAX": 127
-    },
-    "ff": {
+    }],
+    "ff": [{
             "VELOCITY_MIN": 107,
             "VELOCITY_MAX": 117
-    },
-    "f": {
+    }],
+    "f": [{
             "VELOCITY_MIN": 70,
             "VELOCITY_MAX": 107
-    },
-    "fp": {
+    }],
+    "fp": [{
             "VELOCITY_MIN": 32,
             "VELOCITY_MAX": 87
-    },
-    "cresc":{
+    }],
+    "cresc":[{
             "VELOCITY_MIN":"+10",
             "VELOCITY_MAX":"+10"
-    },
-    "dim":{
+    }],
+    "dim":[{
             "VELOCITY_MIN":"-10",
             "VELOCITY_MAX":"-10"
-    },
-	"sparse": {
+    }],
+	"sparse": [{
 			"GEN_NOTE_DELAY_MAX": 5000,
 			"NOTE_DELAY_MAX": 5000,
-			"NOTE_DELAY_MIN": 1000,
-			"MAIN_LOOP_DELAY_MAX": 4000,
-			"MAIN_LOOP_DELAY_MIN": 400
-	},
-	"dense": {
+            "NOTE_DELAY_MIN": 1000,
+            "GEN_NB_NOTES_MAX": 5,
+            "GEN_NB_NOTES_MIN": 1,
+			"MAIN_LOOP_DELAY_MAX": 400,
+			"MAIN_LOOP_DELAY_MIN": 40
+	}],
+	"dense": [{
 			"GEN_NOTE_DELAY_MAX": 1000,
 			"NOTE_DELAY_MAX": 500,
 			"NOTE_DELAY_MIN": 20,
 			"MAIN_LOOP_DELAY_MAX": 500,
 			"MAIN_LOOP_DELAY_MIN": 50
-    },
-    "denser": {
+    }],
+    "denser": [{
 			"GEN_NOTE_DELAY_MAX": "-100",
 			"NOTE_DELAY_MAX": "-100",
 			"NOTE_DELAY_MIN": "-50",
 			"MAIN_LOOP_DELAY_MAX": "-200",
 			"MAIN_LOOP_DELAY_MIN": "-20"
-    },
-    "sparsen": {
+    }],
+    "sparsen": [{
 			"GEN_NOTE_DELAY_MAX": "+100",
 			"NOTE_DELAY_MAX": "+100",
 			"NOTE_DELAY_MIN": "+50",
 			"MAIN_LOOP_DELAY_MAX": "+200",
 			"MAIN_LOOP_DELAY_MIN": "+20"
-    },
-    "superdense": {
+    }],
+    "superdense": [{
 			"GEN_NOTE_DELAY_MAX": 200,
 			"NOTE_DELAY_MAX": 100,
             "NOTE_DELAY_MIN": 10,
@@ -117,69 +121,69 @@
             "GEN_NB_NOTES_MIN": 50,
 			"MAIN_LOOP_DELAY_MAX": 100,
 			"MAIN_LOOP_DELAY_MIN": 10
-    },
-    "stacc": {
+    }],
+    "stacc": [{
             "NOTE_TIME_MIN": 20,
             "NOTE_TIME_MAX": 100
-    },
-    "tenuto": {
+    }],
+    "tenuto": [{
             "NOTE_TIME_MIN": 80,
             "NOTE_TIME_MAX": 1000
-    },
-	"overflow": {
+    }],
+	"overflow": [{
 			"USE_SAME_CHANNEL_FOR_CURRENT_LOOP": true
-	},
-	"underflow" : {
+	}],
+	"underflow" : [{
 			"USE_SAME_CHANNEL_FOR_CURRENT_LOOP": false
-	},
-	"ccon" : {
-		"cc" : {
+	}],
+	"ccon" : [{
+		"cc" : [{
 			"USE_CC_GEN": true
-        }
-	},
-	"ccoff" : {
-		"cc" : {
+        }]
+	}],
+	"ccoff" : [{
+		"cc" : [{
 			"USE_CC_GEN": false
-		}
-    },
-    "noupdate" : {
+		}]
+    }],
+    "noupdate" : [{
             "USE_CONFIG_REFRESH": false
-    },
-    "update" : {
+    }],
+    "update" : [{
             "USE_CONFIG_REFRESH": true
-    },
-    "upone": {
+    }],
+    "upone": [{
             "PITCH_MIN":"+1",
             "PITCH_MAX":"+1"
-    },
-    "downone": {
+    }],
+    "downone": [{
             "PITCH_MIN":"-1",
             "PITCH_MAX":"-1"
-    },
-    "uptwo": {
+    }],
+    "uptwo": [{
             "PITCH_MIN":"+2",
             "PITCH_MAX":"+2"
-    },
-    "downtwo": {
+    }],
+    "downtwo": [{
             "PITCH_MIN":"-2",
             "PITCH_MAX":"-2"
-    },
-    "narrow": {
+    }],
+    "narrow": [{
             "PITCH_MAX":"PITCH_MIN + 10"
-    },
-    "mainloopdelay_on": {
+    }],
+    "mainloopdelay_on": [{
             "USE_MAIN_LOOP_DELAY": true
-    },
-    "mainloopdelay_off": {
+    }],
+    "mainloopdelay_off": [{
             "USE_MAIN_LOOP_DELAY": false
-    },
-    "gendelay_on": {
+    }],
+    "gendelay_on": [{
             "USE_GEN_DELAY": true
-    },
-    "gendelay_off": {
+    }],
+    "gendelay_off": [{
             "USE_GEN_DELAY": false
-    },
-    "end":{
+    }],
+    "end":[{
             "PLAY_COMPOSITION": false
-    }
+    }]
 }

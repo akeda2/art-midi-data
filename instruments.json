@@ -6,7 +6,7 @@
             "LOG_CONFIG_VERBOSE": false,
             "LOG_NOTE_VERBOSE": false,
             "LOG_CC_VERBOSE": false,
-            "LOG_COMPOSITION_VERBOSE": false
+            "LOG_COMPOSITION_VERBOSE": true
         },
         {
             "NAME":"fast",
