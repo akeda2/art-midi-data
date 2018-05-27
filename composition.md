@@ -1,13 +1,17 @@
-# Testing crescendo, densening etc
+# Testing crescendo, densening etc noupdate p overflow ccon narrow
 
 Intro
 
 ``` composition
 macro macro.json
-1 noupdate p overflow ccon narrow sparse
-2 uptwo
-jmp 2 10
-5 denser alto
+1 uptwo noupdate 12tone sparse
+5 uptwo
+6 upone
 jmp 5 10
-15 update
+10 denser
+16 uptwo
+jmp 10 10
+23 update
+24 end
+30 end
 ```

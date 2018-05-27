@@ -1,14 +1,14 @@
 {
     "hep": [
-        [{
-        "PITCH_MIN": 1,
-        "PITCH_MAX": 32
-    }]
-    ],
+        {
+                "PITCH_MIN": 1,
+                "PITCH_MAX": 32
+        }
+        ],
     "dope": [{
-        "PITCH_MIN": 34,
-        "PITCH_MAX": 122
-    }],
+                "PITCH_MIN": 34,
+                "PITCH_MAX": 122
+        }],
     "sub":[{
             "PITCH_MIN":0
     }],
@@ -83,44 +83,48 @@
             "VELOCITY_MIN":"-10",
             "VELOCITY_MAX":"-10"
     }],
-	"sparse": [{
-			"GEN_NOTE_DELAY_MAX": 5000,
-			"NOTE_DELAY_MAX": 5000,
-            "NOTE_DELAY_MIN": 1000,
-            "GEN_NB_NOTES_MAX": 5,
-            "GEN_NB_NOTES_MIN": 1,
-			"MAIN_LOOP_DELAY_MAX": 400,
-			"MAIN_LOOP_DELAY_MIN": 40
-	}],
-	"dense": [{
-			"GEN_NOTE_DELAY_MAX": 1000,
-			"NOTE_DELAY_MAX": 500,
-			"NOTE_DELAY_MIN": 20,
-			"MAIN_LOOP_DELAY_MAX": 500,
-			"MAIN_LOOP_DELAY_MIN": 50
-    }],
+        "sparse": [
+                {
+                        "GEN_NOTE_DELAY_MAX": 10000,
+                        "NOTE_DELAY_MAX": 10000,
+                        "NOTE_DELAY_MIN": 1000,
+                        "GE_NB_NOTES_MAX": 5,
+                        "GEN_NB_NOTES_MIN": 1,
+                        "MAIN_LOOP_DELAY_MAX": 400,
+                        "MAIN_LOOP_DELAY_MIN": 40
+                }
+        ],
+        "dense": [
+                {
+                        "GEN_NOTE_DELAY_MAX": 5000,
+                        "NOTE_DELAY_MAX": 500,
+                        "NOTE_DELAY_MIN": 20,
+                        "MAIN_LOOP_DELAY_MAX": 100,
+                        "MAIN_LOOP_DELAY_MIN": 10
+                }
+        ],
     "denser": [{
-			"GEN_NOTE_DELAY_MAX": "-100",
-			"NOTE_DELAY_MAX": "-100",
-			"NOTE_DELAY_MIN": "-50",
-			"MAIN_LOOP_DELAY_MAX": "-200",
-			"MAIN_LOOP_DELAY_MIN": "-20"
+		"GEN_NOTE_DELAY_MAX": "-100",
+		"NOTE_DELAY_MAX": "-100",
+		"NOTE_DELAY_MIN": "-50",
+		"MAIN_LOOP_DELAY_MAX": "-200",
+		"MAIN_LOOP_DELAY_MIN": "-20"
     }],
     "sparsen": [{
-			"GEN_NOTE_DELAY_MAX": "+100",
-			"NOTE_DELAY_MAX": "+100",
-			"NOTE_DELAY_MIN": "+50",
-			"MAIN_LOOP_DELAY_MAX": "+200",
-			"MAIN_LOOP_DELAY_MIN": "+20"
+		"GEN_NOTE_DELAY_MAX": "+100",
+		"NOTE_DELAY_MAX": "+100",
+		"NOTE_DELAY_MIN": "+50",
+		"MAIN_LOOP_DELAY_MAX": "+200",
+		"MAIN_LOOP_DELAY_MIN": "+20"
     }],
     "superdense": [{
-			"GEN_NOTE_DELAY_MAX": 200,
-			"NOTE_DELAY_MAX": 100,
-            "NOTE_DELAY_MIN": 10,
-            "GEN_NB_NOTES_MAX": 100,
-            "GEN_NB_NOTES_MIN": 50,
-			"MAIN_LOOP_DELAY_MAX": 100,
-			"MAIN_LOOP_DELAY_MIN": 10
+		"GEN_NOTE_DELAY_MAX": 200,
+		"NOTE_DELAY_MAX": 100,
+                "NOTE_DELAY_MIN": 10,
+                "GEN_NB_NOTES_MAX": 100,
+                "GEN_NB_NOTES_MIN": 50,
+		"MAIN_LOOP_DELAY_MAX": 100,
+		"MAIN_LOOP_DELAY_MIN": 10
     }],
     "stacc": [{
             "NOTE_TIME_MIN": 20,
@@ -130,21 +134,21 @@
             "NOTE_TIME_MIN": 80,
             "NOTE_TIME_MAX": 1000
     }],
-	"overflow": [{
-			"USE_SAME_CHANNEL_FOR_CURRENT_LOOP": true
-	}],
-	"underflow" : [{
-			"USE_SAME_CHANNEL_FOR_CURRENT_LOOP": false
-	}],
+	"overflow": [
+                {
+                        "USE_SAME_CHANNEL_FOR_CURRENT_LOOP": true
+                }
+        ],
+        "underflow": [
+                {
+                        "USE_SAME_CHANNEL_FOR_CURRENT_LOOP": false
+                }
+        ],
 	"ccon" : [{
-		"cc" : [{
-			"USE_CC_GEN": true
-        }]
+	        	"USE_CC_GEN": true
 	}],
 	"ccoff" : [{
-		"cc" : [{
 			"USE_CC_GEN": false
-		}]
     }],
     "noupdate" : [{
             "USE_CONFIG_REFRESH": false
@@ -161,8 +165,8 @@
             "PITCH_MAX":"-1"
     }],
     "uptwo": [{
-            "PITCH_MIN":"+2",
-            "PITCH_MAX":"+2"
+            "PITCH_MIN":"PITCH_MIN +2",
+            "PITCH_MAX":"PITCH_MAX +2"
     }],
     "downtwo": [{
             "PITCH_MIN":"-2",
@@ -171,6 +175,9 @@
     "narrow": [{
             "PITCH_MAX":"PITCH_MIN + 10"
     }],
+    "12tone": [{
+        "PITCH_MAX":"PITCH_MIN + 12"
+        }],
     "mainloopdelay_on": [{
             "USE_MAIN_LOOP_DELAY": true
     }],

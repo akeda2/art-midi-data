@@ -3,7 +3,7 @@
     "CONFIG":[
         {
             "NOTE": false,
-            "LOG_CONFIG_VERBOSE": false,
+            "LOG_CONFIG_VERBOSE": true,
             "LOG_NOTE_VERBOSE": false,
             "LOG_CC_VERBOSE": false,
             "LOG_COMPOSITION_VERBOSE": true
@@ -22,13 +22,14 @@
         {
             "CHANNEL": 11,
             "NAME": "Volca_FM",
+            "PARENT_NAME":"slow",
             "NOTE":true
         },
         {
             "CHANNEL": 12,
             "NAME": "Boog_D",
             "PARENT_NAME": "fast",
-            "PITCH_MIN": 40,
+            "PITCH_MIN": 50,
             "PITCH_MAX": 70,
             "MONO": true,
             "NOTE": true,
@@ -39,13 +40,11 @@
         {
             "CHANNEL": 13,
             "NAME": "DM12",
+            "PARENT_NAME":"slow",
             "NOTE":true
         },
         {
-            "CHANNEL": 1,
-            "NAME": "Kick",
-            "NOTE":true,
-            "MONO":true,
+            "NAME":"slowdrums",
             "GEN_NB_NOTES_MIN": 1,
             "GEN_NB_NOTES_MAX":1,
             "NOTE_TIME_MAX": 100,
@@ -54,10 +53,35 @@
             "NOTE_DELAY_MAX": 30
         },
         {
+            "NAME":"sparsedrums",
+            "GEN_NB_NOTES_MIN": 1,
+            "GEN_NB_NOTES_MAX":1,
+            "NOTE_TIME_MAX": 2000,
+            "NOTE_TIME_MIN": 400,
+            "NOTE_DELAY_MIN": 1000,
+            "NOTE_DELAY_MAX": 8000
+        },
+        {
+            "NAME":"fastdrums",
+            "GEN_NB_NOTES_MIN":1,
+            "GEN_NB_NOTES_MAX":1,
+            "NOTE_TIME_MAX": 50,
+            "NOTE_TIME_MIN": 50,
+            "NOTE_DELAY_MIN": 15,
+            "NOTE_DELAY_MAX": 15
+        },
+        {
+            "CHANNEL": 1,
+            "NAME": "Kick",
+            "PARENT_NAME":"slowdrums",
+            "NOTE":true,
+            "MONO":true
+        },
+        {
             "CHANNEL": 2,
-            "PARENT_CHANNEL": 1,
+            "PARENT_CHANNEL": 5,
             "NAME":"Claves",
-            "NOTE":false
+            "NOTE":true
         },
         {
             "CHANNEL": 3,
@@ -67,12 +91,13 @@
         },
         {
             "CHANNEL": 4,
-            "PARENT_CHANNEL": 1,
+            "PARENT_CHANNEL": 5,
             "NAME": "hat",
             "NOTE":true
         },
         {
             "CHANNEL": 5,
+            "PARENT_NAME":"sparsedrums",
             "NOTE":true
         },
         {
