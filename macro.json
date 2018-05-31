@@ -83,15 +83,27 @@
             "VELOCITY_MIN":"-10",
             "VELOCITY_MAX":"-10"
     }],
+    "semidrone": [{
+        "GEN_NOTE_DELAY_MAX": 10000,
+        "NOTE_DELAY_MAX": 10000,
+        "NOTE_DELAY_MIN": 1000,
+        "GEN_NB_NOTES_MAX": 1,
+        "GEN_NB_NOTES_MIN": 1,
+        "MAIN_LOOP_DELAY_MAX": 4000,
+        "MAIN_LOOP_DELAY_MIN": 1000,
+        "NOTE_TIME_MIN": 2000,
+        "NOTE_TIME_MAX": 20000
+        }],
         "sparse": [
                 {
                         "GEN_NOTE_DELAY_MAX": 10000,
                         "NOTE_DELAY_MAX": 10000,
                         "NOTE_DELAY_MIN": 1000,
-                        "GE_NB_NOTES_MAX": 5,
+                        "GEN_NB_NOTES_MAX": 5,
                         "GEN_NB_NOTES_MIN": 1,
                         "MAIN_LOOP_DELAY_MAX": 400,
                         "MAIN_LOOP_DELAY_MIN": 40
+                        
                 }
         ],
         "dense": [
@@ -191,6 +203,6 @@
             "USE_GEN_DELAY": false
     }],
     "end":[{
-            "PLAY_COMPOSITION": false
+            "EXIT": true
     }]
 }

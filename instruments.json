@@ -3,10 +3,14 @@
     "CONFIG":[
         {
             "NOTE": false,
-            "LOG_CONFIG_VERBOSE": true,
+            "LOG_CONFIG_VERBOSE": false,
             "LOG_NOTE_VERBOSE": false,
             "LOG_CC_VERBOSE": false,
             "LOG_COMPOSITION_VERBOSE": true
+        },
+        {
+            "COMPOSITION": "composition.md",
+            "NAME":"composition"
         },
         {
             "NAME":"fast",
@@ -15,8 +19,9 @@
         },
         {
             "NAME":"slow",
+            "PARENT_NAME":"composition",
             "GEN_NB_NOTES_MIN": 1,
-            "GEN_NB_NOTES_MAX": 10
+            "GEN_NB_NOTES_MAX": 1
 
         },
         {
@@ -28,7 +33,7 @@
         {
             "CHANNEL": 12,
             "NAME": "Boog_D",
-            "PARENT_NAME": "fast",
+            "PARENT_NAME": "slow",
             "PITCH_MIN": 50,
             "PITCH_MAX": 70,
             "MONO": true,
@@ -41,7 +46,8 @@
             "CHANNEL": 13,
             "NAME": "DM12",
             "PARENT_NAME":"slow",
-            "NOTE":true
+            "NOTE":true,
+            "COMPOSITION": "composition.md"
         },
         {
             "NAME":"slowdrums",
@@ -51,6 +57,15 @@
             "NOTE_TIME_MIN": 100,
             "NOTE_DELAY_MIN": 30,
             "NOTE_DELAY_MAX": 30
+        },
+        {
+            "NAME":"dronedrums",
+            "GEN_NB_NOTES_MIN": 1,
+            "GEN_NB_NOTES_MAX": 1,
+            "NOTE_TIME_MAX": 2000,
+            "NOTE_TIME_MIN": 200,
+            "NOTE_DELAY_MIN": 1000,
+            "NOTE_DELAY_MAX": 8000
         },
         {
             "NAME":"sparsedrums",
@@ -68,12 +83,13 @@
             "NOTE_TIME_MAX": 50,
             "NOTE_TIME_MIN": 50,
             "NOTE_DELAY_MIN": 15,
-            "NOTE_DELAY_MAX": 15
+            "NOTE_DELAY_MAX": 15,
+            "PARENT_NAME":"composition"
         },
         {
             "CHANNEL": 1,
             "NAME": "Kick",
-            "PARENT_NAME":"slowdrums",
+            "PARENT_NAME":"dronedrums",
             "NOTE":true,
             "MONO":true
         },
@@ -97,33 +113,28 @@
         },
         {
             "CHANNEL": 5,
-            "PARENT_NAME":"sparsedrums",
-            "NOTE":true
+            "PARENT_NAME":"dronedrums",
+            "NOTE":false
         },
         {
             "CHANNEL": 6,
-            "PARENT_CHANNEL": 5,
-            "NOTE":true
+            "PARENT_CHANNEL": 5
         },
         {
             "CHANNEL": 7,
-            "PARENT_CHANNEL": 5,
-            "NOTE":true
+            "PARENT_CHANNEL": 5
         },
         {
             "CHANNEL": 8,
-            "PARENT_CHANNEL":5,
-            "NOTE":true
+            "PARENT_CHANNEL":5
         },
         {
             "CHANNEL": 9,
-            "PARENT_CHANNEL": 5,
-            "NOTE":true
+            "PARENT_CHANNEL": 5
         },
         {
             "CHANNEL": 10,
-            "PARENT_CHANNEL": 5,
-            "NOTE":true
+            "PARENT_CHANNEL": 5
         }
     ]
 }

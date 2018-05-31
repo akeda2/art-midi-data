@@ -22,5 +22,6 @@
   "USE_MAIN_LOOP_DELAY": true,
   "COMPOSITION_CLEAR_JMP_STACK_ON_EOF": false,
   "MAIN_LOOP_DELAY_MIN": 10,
-  "COMPOSITION": "composition.md"
+  "COMPOSITION": "composition.md",
+  "EXIT":"false"
 }

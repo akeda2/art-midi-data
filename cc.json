@@ -4,8 +4,8 @@
   "CC_GEN_NUMBER_MAX": 127,
   "CC_GEN_CHANNEL_MAX": 16,
   "CC_SET_LIST": [
-    [12,1,0,24],
-    [13,1,0,32],
+    [12,1,0,16],
+    [13,1,0,16],
     {
       "channel": 11,
       "number": 48,
