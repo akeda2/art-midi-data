@@ -26,9 +26,10 @@
         },
         {
             "CHANNEL": 11,
-            "NAME": "Volca_FM",
+            "NAME": "V-FM",
             "PARENT_NAME":"slow",
-            "NOTE":true
+            "NOTE":true,
+            "COMPOSITION": "composition.md"
         },
         {
             "CHANNEL": 12,
@@ -40,7 +41,8 @@
             "NOTE": true,
             "LOG_NOTE_VERBOSE": false,
             "NOTE_DELAY_MIN": 30,
-            "NOTE_DELAY_MAX": 30
+            "NOTE_DELAY_MAX": 30,
+            "COMPOSITION": "composition.md"
         },
         {
             "CHANNEL": 13,
