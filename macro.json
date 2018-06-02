@@ -202,7 +202,30 @@
     "gendelay_off": [{
             "USE_GEN_DELAY": false
     }],
-    "end":[{
-            "EXIT": true
+    "break":[{
+            "EXIT": true,
+            "CLEAR_ALL_PLAYING_NOTES":true
+    }],
+    "fine":[{
+            "EXIT_SOFT": true,
+            "CLEAR_ALL_QUEUED_NOTES":true
+    }],
+    "pause":[{
+            "NOTE":false,
+            "NOTES_CLEAR_CURRENT":true,
+            "NOTES_CLEAR_QUEUED":true
+    }],
+    "resume":[{
+            "NOTE":true,
+            "NOTES_CLEAR_CURRENT":false,
+            "NOTES_CLEAR_QUEUED":false
+    }],
+    "clear":[{
+        "CLEAR_ALL_QUEUED_NOTES":true,
+        "CLEAR_ALL_PLAYING_NOTES":true
+    }],
+    "unclear":[{
+        "CLEAR_ALL_QUEUED_NOTES":false,
+        "CLEAR_ALL_PLAYING_NOTES":false
     }]
 }
