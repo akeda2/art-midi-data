@@ -52,6 +52,13 @@
             "COMPOSITION": "composition.md"
         },
         {
+            "CHANNEL":14,
+            "NAME":"neutron",
+            "PARENT_NAME":"slow",
+            "NOTE":true,
+            "COMPOSITION":"composition.md"
+        },
+        {
             "NAME":"slowdrums",
             "GEN_NB_NOTES_MIN": 1,
             "GEN_NB_NOTES_MAX":1,
